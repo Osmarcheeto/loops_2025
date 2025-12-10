@@ -69,3 +69,10 @@ total = 0
 for number in new_numbers:
     total += number
 print
+
+index = 0
+while index < len(colors):
+    if colors[index] == "yellow":
+        break
+    print(colors[index])
+    index += 1
