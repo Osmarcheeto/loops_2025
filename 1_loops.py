@@ -27,11 +27,45 @@ for list1000 in list1000:
     print(list1000)
 list101 = list(range(1,10000))
 for list101 in list101:
-    if list 101 <=505:
-break
-print(list101)
+    if 300 <= number <= 500:
+        continue
+    print(list101)
 # Given:
-numbers = [5, 10, 15, 20]
+
+
 
 # Challenge:
 # Use a for loop to add all the numbers and print the total.
+applicants_for_credit= ["alice", "Bob", "Charlie", "David", "Eve"]
+Credit_scores = [720, 680,520,670,750]
+Zipped_data = zip(Credit_scores, applicants_for_credit)
+list_of_tuples = list(Zipped_data)
+print(list_of_tuples)
+for applicant, score in zip(applicants_for_credit, Credit_scores):
+    if score < 600:
+        continue
+    print(applicant + " approved credit score" + str(score))
+
+
+
+
+for index in range(len(class)-1):
+    print("subject " + str(index) + ": " + class[index])
+
+
+
+numbers = [5, 10, 15, 20]
+total = 0
+for numbers in numbers:
+    total += numbers
+    #short hand for total = total + number
+print("total" ,total)
+
+new_numbers = list(range(1, 261))
+# This creates a list of number from 1 to 20
+# Challege: sum up all the numbers from 1 to 260
+# and print the total
+total = 0
+for number in new_numbers:
+    total += number
+print
